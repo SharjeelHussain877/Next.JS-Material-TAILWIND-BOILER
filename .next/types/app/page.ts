@@ -1,4 +1,4 @@
-// File: /Users/nubit/Desktop/expo/Hospital/src/app/page.js
+// File: D:\NEXT JS API TEST PROJECT\src\app\page.js
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
