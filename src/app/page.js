@@ -2,9 +2,6 @@
 
 import { Button } from "@material-tailwind/react";
 import React, { useState } from "react";
-import axios from "axios";
-
-const API = "http://habibqatar.com.pk/TestService";
 
 export default function Panel() {
   const [num, setNum] = useState(0);
