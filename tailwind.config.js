@@ -9,6 +9,12 @@ const config = {
   ],
   theme: {
     extend: {
+      colors: {
+        "custom-cream": {
+          DEFAULT: "#f7f6f0",
+          100: "#2f2b3a",
+        },
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

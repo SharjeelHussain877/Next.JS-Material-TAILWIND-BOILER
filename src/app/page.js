@@ -1,12 +1,11 @@
 "use client";
-
 import { Button } from "@material-tailwind/react";
 import React, { useState } from "react";
-
+import { Header, Hero, CustomButton, CustomCard, CustomHeading, CustomImage, CustomFooter } from "@/components"
 export default function Panel() {
   const [num, setNum] = useState(0);
 
-  function foo () {
+  function foo() {
     setNum(Math.floor(Math.random() * 10))
   }
 
@@ -18,6 +17,16 @@ export default function Panel() {
       <Button type="button" onClick={foo}>
         Click me
       </Button>
+
+      <div>
+        <Header />
+        <Hero />
+        <CustomButton />
+        <CustomCard />
+        <CustomHeading />
+        <CustomImage />
+        <CustomFooter />
+      </div>
     </div>
   );
 }
